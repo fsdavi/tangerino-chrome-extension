@@ -1,0 +1,23 @@
+{
+ "manifest_version": 2,
+ "name": "Tangerino Extension",
+ "description": "Extension to move me to tangerino pages on certain ",
+ "version": "1.0",
+ "action": {
+  "default_popup": "tangerino.html",
+  "default_icon": "tangerinoIcon.png"
+ },
+ "page_action": {
+	"default_icon": "tangerinoIcon.png",
+	"default_title": "Opa"
+ },
+ "permissions": [
+  "alarms",
+  "tabs"
+ ],
+ "background": {
+  "scripts": [
+   "background.js"
+  ]
+	}
+}

@@ -1,0 +1,1 @@
+chrome.alarms.create("Oxenteeeee", {delayInMinutes: 1});
