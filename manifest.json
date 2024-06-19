@@ -1,23 +1,23 @@
 {
- "manifest_version": 2,
- "name": "Tangerino Remember Extension",
- "description": "Extension to move me to the tangerino page at certain times",
- "version": "1.0",
- "action": {
-  "default_popup": "tangerino.html",
-  "default_icon": "tangerinoIcon.png"
- },
- "page_action": {
-	"default_icon": "tangerinoIcon.png",
-	"default_title": "Tangerino Remember"
- },
- "permissions": [
-  "alarms",
-  "tabs"
- ],
- "background": {
-  "scripts": [
-   "background.js"
-  ]
-	}
+  "manifest_version": 2,
+  "name": "Tangerino remember",
+  "version": "1.0",
+  "description": "Extension to move me to tangerino pages on time.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "tangerinoIcon.png"
+  },
+  "permissions": [
+    "alarms",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
 }
+
+
