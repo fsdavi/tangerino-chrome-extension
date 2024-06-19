@@ -1,7 +1,7 @@
 {
  "manifest_version": 2,
- "name": "Tangerino Extension",
- "description": "Extension to move me to tangerino pages on certain ",
+ "name": "Tangerino Remember Extension",
+ "description": "Extension to move me to the tangerino page at certain times",
  "version": "1.0",
  "action": {
   "default_popup": "tangerino.html",
@@ -9,7 +9,7 @@
  },
  "page_action": {
 	"default_icon": "tangerinoIcon.png",
-	"default_title": "Opa"
+	"default_title": "Tangerino Remember"
  },
  "permissions": [
   "alarms",
